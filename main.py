@@ -30,7 +30,7 @@ def get_candidates_pk(pk):
     candidates += f"навыки кандидата - {candidate['skills']}\n\n"
 
     return f'''
-           <img src = "({candidate["picture"]})">
+           <img src = "{candidate["picture"]}">
            <pre> {candidates} </pre>
 '''
 
